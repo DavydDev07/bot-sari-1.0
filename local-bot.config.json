@@ -1,0 +1,25 @@
+{
+  "profile": {
+    "login": "SUE_LOGI",
+    "password": "SUA_SENHA",
+    "category": "SUA_CATEGORIA(Ex: aluno_noite)"
+  },
+  "almoco": {
+    "habilitada": true,
+    "dias": ["segunda","terca","quarta", "quinta", "sexta"]
+  },
+  "jantar": {
+    "habilitada": true,
+    "dias": ["segunda","terca","quarta", "quinta", "sexta"]
+  },
+  "scripts": {
+  "scheduled": "ts-node src/app/scheduled-main.ts"
+  },
+  "politicaDeRepeticao": {
+    "ativado": true,
+    "maxDeTentativas": 2,
+    "tempDeEsperaEntreTentativas": 20
+  },
+  "SalvarCapturasDeTelaEmCasoDeErro": true,
+  "SalvarLogs": true
+}
